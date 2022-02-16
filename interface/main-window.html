@@ -1,25 +1,31 @@
-<h1>VERBOSE LAMP</h1>
-<span class='inline-block status-removed icon icon-diff-removed verbose-lamp-colser'></span>
-<ul class='list-tree has-collapsable-children '>
-  <li class='list-nested-item'>
-    <div class='list-item'>
-      <span class='icon icon-file-text'>This is a collapsable section</span>
-    </div>
+<h1>
+  <span class='inline-block status-removed icon icon-diff-removed verbose-lamp-colser'></span>
+  VERBOSE LAMP - experiments with packages
+</h1>
+<atom-panel class='padded'>
+  <div class="inset-panel">
+    <div class="panel-heading verbose-lamp-apmpath">~MAIN_PATH~</div>
+    <div class="panel-body padded verbose-lamp-packagepaths">OTHER_PATHS</div>
+  </div>
+</atom-panel>
+<div class='select-list'>
+  <ol class='list-group verbose-lamp-lister-package'>
+    <li class='two-lines'>
+      <div class='status status-added icon icon-diff-added'></div>
+      <div class='primary-line icon icon-file-text'>Primary line</div>
+      <div class='secondary-line no-icon'>Secondary line</div>
+    </li>
 
-    <ul class='list-tree has-flat-children'>
-      <li class='list-item'>Something is here</li>
-      <li class='list-item selected'>Something selected</li>
-    </ul>
-  </li>
+    <li class='two-lines selected'>
+      <div class='status status-modified icon icon-diff-modified'></div>
+      <div class='primary-line icon icon-file-symlink-file'>A thing</div>
+      <div class='secondary-line no-icon'>Description of the thing</div>
+    </li>
 
-  <li class='list-nested-item'>
-    <div class='list-item'>
-      <span class='icon icon-file-directory'>Another collapsable section</span>
-    </div>
-
-    <ul class='list-tree has-flat-children'>
-      <li class='list-item'>Something is here</li>
-      <li class='list-item'>Something else</li>
-    </ul>
-  </li>
-</ul>
+    <li class='two-lines'>
+      <div class='status status-renamed icon icon-diff-renamed'></div>
+      <div class='primary-line icon icon-file-symlink-file'>A thing</div>
+      <div class='secondary-line no-icon'>Description of the thing</div>
+    </li>
+  </ol>
+</div>
