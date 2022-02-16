@@ -1,0 +1,19 @@
+{
+  "name": "verbose-lamp",
+  "main": "./lib/verbose-lamp",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "verbose-lamp:toggle"
+  },
+  "repository": "https://github.com/Technomantic-Factory/verbose-lamp",
+  "license": "MIT",
+  "author": "Sett Sarverott <sett@sarverott.com> (http://sarverott.com/)",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

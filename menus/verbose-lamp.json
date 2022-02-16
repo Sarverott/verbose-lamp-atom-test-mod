@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle verbose-lamp",
+        "command": "verbose-lamp:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "verbose-lamp",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "verbose-lamp:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
