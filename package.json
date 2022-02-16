@@ -2,7 +2,7 @@
   "name": "verbose-lamp",
   "main": "./lib/verbose-lamp",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "example of Atom Editor packages list and more, basicly atom package writing experiments",
   "keywords": [
   ],
   "activationCommands": {
